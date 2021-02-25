@@ -5,16 +5,31 @@
         <title>Pokedex</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">    
     </head>
     <body>
-        <main>
-            <h1 id="pokemon">Pikachu</h1>
-            <div class="window">
-                <img id="image" src="" alt="">
+    
+        <header class="header">
+            <div>
+                <h1>Encuentra tu Pokémon y conviértete en un <span>Maestro Pokémon!</span></h1>
             </div>
-            <input type="text" id="search" placeholder="Ingrese el numero del pokemon">
+        </header>
+        <main>
+            <div class="pokedex">
+                <div>
+                    <img class="pokebola" src="pokebola.png" alt="">
+                </div>
+                <hr class="line">
+                <h2>La Pokédex:</h2>
+                <h1 id="pokemon"></h1>
+                <div class="window">
+                    <img id="image" src="" alt="">
+                </div>
+                <input type="text" id="search" placeholder="Ingresá el nombre o número del pokémon">
+            </div>
         </main>
+
         <script src="code.js"></script>
     </body>
 </html>
