@@ -1,5 +1,5 @@
 # :star2:			Pokédex
-Link directo al proyecto: [link]()
+Link directo al proyecto: [link](https://lordlez.github.io/pokedexProject/)
 
 
 # 📝 Objetivo del proyecto
